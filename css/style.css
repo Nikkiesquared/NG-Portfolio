@@ -1,0 +1,102 @@
+    /* @media (min-width: 768px) {
+        .about-me-section{
+            flex-direction: row;
+        }
+    } */
+    
+    /* fonts */
+    
+    .borel-font {
+        font-family: "Borel", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700 ;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0,
+        "FLAR" 0,
+        "VOLM" 0;
+        font-size: 25px;
+    }
+    
+    .commissioner-font {
+        font-family: "Commissioner", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+        "slnt" 0,
+        "FLAR" 0,
+        "VOLM" 0;
+    }
+    
+    /* overall edits */
+    body {
+        background-color: #f9f6fc;
+    }
+    .page-container {
+        width: 99%;
+        max-width: 1200px;
+        margin: auto;
+    } 
+    /* navbar styling */
+    .main-nav-bar {
+        background-color: #e1cdf3;
+        font-size: large;
+        
+    }
+    /* hero section styling */
+    .hero-section {
+        color: #e1cdf3;
+        background-image: url(/images/clouds.avif);
+        background-size: cover;
+        
+        
+    }
+    .my-name {
+        font-size: 60px;
+        text-shadow: 2px 5px 2px #16111a ;
+    }
+    .fsd-title {
+        text-shadow: 2px 3px 3px #16111a ;
+    }
+    /* custom btn styling */
+    .custom-btn {
+        background-color: #cdf3dd;
+        color: #5d4b68;
+    }
+    .welcome-mess {
+        color: #cdf3dd;
+        font-size: 30px;
+        font-family: "Commissioner", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: 2px 5px 2px #16111a ;
+    }
+    
+    .main-headers {
+        font-family: "Borel", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700 ;
+        font-style: bold;
+        font-variation-settings:
+        "slnt" 0,
+        "FLAR" 0,
+        "VOLM" 0;
+        font-size: 35px;
+        background-color: #e1cdf3;
+    }
+    
+    .about-me-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        
+    }
+    
+    .card-img-top {
+        width: 100%;
+        height: 15vw;
+        background-color: #e1cdf3;
+        object-fit: cover;
+    }
