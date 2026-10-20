@@ -33,6 +33,10 @@
     body {
         background-color: #f9f6fc;
     }
+
+    p {
+        text-indent: 20px;
+    }
     .page-container {
         width: 99%;
         max-width: 1200px;
@@ -100,3 +104,9 @@
         background-color: #e1cdf3;
         object-fit: cover;
     }
+
+    #copywrite {
+        font-family: borel;
+        font-weight: 600;
+    }
+
